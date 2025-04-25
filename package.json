@@ -12,7 +12,11 @@
     "type": "git",
     "url": "git+https://github.com/TimoRomakkaniemi/Merita.git"
   },
-  "keywords": ["kiinteistönvälitys", "LKV", "Merita Sipovaara"],
+  "keywords": [
+    "kiinteistönvälitys",
+    "LKV",
+    "Merita Sipovaara"
+  ],
   "author": "Meritasi LKV Oy",
   "license": "ISC",
   "bugs": {
@@ -23,7 +27,8 @@
     "aos": "^2.3.4",
     "chart.js": "^4.4.1",
     "gsap": "^3.12.4",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "terser": "^5.39.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",

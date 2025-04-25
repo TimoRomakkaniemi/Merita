@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meritasi LKV Oy - Asiantuntevaa kiinteistönvälitystä pääkaupunkiseudulla. Merita Sipovaara palveluksessasi.">
+    <title>Meritasi LKV Oy | Asiantuntevaa kiinteistönvälitystä</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <script type="module" crossorigin src="/assets/index-BIcFxosU.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-BD6w9u5D.css">
+</head>
+<body class="antialiased">
+    <!-- Navigaatio -->
+    <header class="fixed w-full bg-white shadow-md z-50 transition-all duration-300">
+        <div class="container">
+            <nav class="flex justify-between items-center py-4">
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-serif font-bold text-primary">
+                        Meritasi<span class="text-secondary"> LKV Oy</span>
+                    </a>
+                </div>
+
+                <!-- Desktop Menu -->
+                <ul class="hidden md:flex items-center space-x-8">
+                    <li><a href="#etusivu" class="text-primary hover:text-secondary transition-colors">Etusivu</a></li>
+                    <li><a href="#palvelut" class="text-primary hover:text-secondary transition-colors">Palvelut</a></li>
+                    <li><a href="#kohteet" class="text-primary hover:text-secondary transition-colors">Kohteet</a></li>
+                    <li><a href="#minusta" class="text-primary hover:text-secondary transition-colors">Minusta</a></li>
+                    <li><a href="#yhteystiedot" class="text-primary hover:text-secondary transition-colors">Yhteystiedot</a></li>
+                    <li><a href="#ota-yhteytta" class="btn-primary">Ota yhteyttä</a></li>
+                </ul>
+
+                <!-- Mobile menu button -->
+                <button id="menu-toggle" class="md:hidden text-primary text-2xl">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden bg-white shadow-lg hidden">
+            <div class="container py-4">
+                <ul class="space-y-4">
+                    <li><a href="#etusivu" class="block text-primary hover:text-secondary transition-colors">Etusivu</a></li>
+                    <li><a href="#palvelut" class="block text-primary hover:text-secondary transition-colors">Palvelut</a></li>
+                    <li><a href="#kohteet" class="block text-primary hover:text-secondary transition-colors">Kohteet</a></li>
+                    <li><a href="#minusta" class="block text-primary hover:text-secondary transition-colors">Minusta</a></li>
+                    <li><a href="#yhteystiedot" class="block text-primary hover:text-secondary transition-colors">Yhteystiedot</a></li>
+                    <li class="pt-4"><a href="#ota-yhteytta" class="btn-primary block text-center">Ota yhteyttä</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        <!-- Hero Section -->
+        <section id="etusivu" class="relative h-screen bg-cover bg-center flex items-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1973&q=80');">
+            <div class="container">
+                <div class="hero-content max-w-2xl text-white" data-aos="fade-up">
+                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6">Löydä unelmiesi koti</h1>
+                    <p class="text-xl mb-8">Luotettavaa, asiantuntevaa ja sydämellistä kiinteistönvälitystä 
+                        <span class="text-secondary-light font-semibold">Merita Sipovaaran</span> johdolla.</p>
+                    <div class="flex flex-wrap gap-4">
+                        <a href="#kohteet" class="btn-secondary">Selaa kohteita</a>
+                        <a href="#ota-yhteytta" class="btn-outline border-white text-white hover:bg-white hover:text-primary">Ota yhteyttä</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Statistiikka Section -->
+        <section class="py-16 bg-primary-dark text-white">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                    <div data-aos="fade-up" data-aos-delay="0">
+                        <div class="counter text-4xl font-bold mb-2" data-target="150">0</div>
+                        <p class="text-secondary-light">Kohdetta myyty</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <div class="counter text-4xl font-bold mb-2" data-target="97">0</div>
+                        <p class="text-secondary-light">Tyytyväisiä asiakkaita</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <div class="counter text-4xl font-bold mb-2" data-target="15">0</div>
+                        <p class="text-secondary-light">Kohdetta myynnissä</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <div class="counter text-4xl font-bold mb-2" data-target="8">0</div>
+                        <p class="text-secondary-light">Vuoden kokemus</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Palvelut -->
+        <section id="palvelut" class="section bg-neutral">
+            <div class="container">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Palvelumme</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">Tarjoamme kattavat kiinteistönvälityspalvelut kaikkiin tarpeisiisi.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="card p-8" data-aos="fade-up" data-aos-delay="0">
+                        <div class="text-primary text-4xl mb-4">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Asuntojen myynti</h3>
+                        <p class="text-gray-600 mb-4">Maksimoimme asuntosi arvon ja löydämme parhaan ostajan. Kattava markkinointisuunnitelma ja oikea hinnoittelu takaavat nopean myynnin.</p>
+                        <a href="#ota-yhteytta" class="text-primary font-semibold hover:text-secondary transition-colors">Pyydä ilmainen arvio →</a>
+                    </div>
+                    
+                    <div class="card p-8" data-aos="fade-up" data-aos-delay="100">
+                        <div class="text-primary text-4xl mb-4">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Asuntojen osto</h3>
+                        <p class="text-gray-600 mb-4">Etsimme sinulle unelmiesi kodin. Kuuntelemme tarpeesi ja toiveesi ja etsimme juuri sinulle sopivan asunnon.</p>
+                        <a href="#ota-yhteytta" class="text-primary font-semibold hover:text-secondary transition-colors">Kerro toiveistasi →</a>
+                    </div>
+                    
+                    <div class="card p-8" data-aos="fade-up" data-aos-delay="200">
+                        <div class="text-primary text-4xl mb-4">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 class="text-xl font-bold mb-3">Markkina-analyysi</h3>
+                        <p class="text-gray-600 mb-4">Ajantasainen asuntomarkkinatieto auttaa sinua tekemään oikeita päätöksiä. Saat meiltä tarkan analyysin alueen hintatasosta.</p>
+                        <a href="#ota-yhteytta" class="text-primary font-semibold hover:text-secondary transition-colors">Pyydä analyysi →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Merita Esittely -->
+        <section id="minusta" class="section bg-white">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+                    <div class="relative" data-aos="fade-right">
+                        <div class="rounded-lg overflow-hidden shadow-xl">
+                            <img src="/assets/MERITA-DEhkV8pg.jpg" alt="Merita Sipovaara" class="w-full h-auto">
+                        </div>
+                        <div class="absolute -bottom-6 -right-6 bg-secondary p-4 rounded-lg shadow-lg">
+                            <p class="font-bold text-primary-dark">RE/MAX</p>
+                            <p class="text-sm">Kiinteistönvälittäjä, LKV, KED</p>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="fade-left">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">Merita Sipovaara</h2>
+                        <p class="text-gray-600 mb-6">Olen intohimoinen kiinteistönvälittäjä, jolle asiakkaan tyytyväisyys on etusijalla. Autan sinua löytämään unelmiesi kodin tai myymään nykyisen kotisi parhaaseen mahdolliseen hintaan.</p>
+                        
+                        <div class="mb-8">
+                            <h3 class="text-xl font-bold mb-4">Miksi valita minut?</h3>
+                            <ul class="space-y-2">
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-secondary mt-1 mr-2"></i>
+                                    <span>Vahva paikallistuntemus ja markkinaymmärrys</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-secondary mt-1 mr-2"></i>
+                                    <span>Henkilökohtainen palvelu alusta loppuun</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-secondary mt-1 mr-2"></i>
+                                    <span>Laillistettu kiinteistönvälittäjä (LKV)</span>
+                                </li>
+                                <li class="flex items-start">
+                                    <i class="fas fa-check-circle text-secondary mt-1 mr-2"></i>
+                                    <span>RE/MAX -ketjun tuki ja verkostot</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <a href="#ota-yhteytta" class="btn-primary">Ota yhteyttä</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Markkina-analyysi -->
+        <section class="section bg-neutral">
+            <div class="container">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Asuntomarkkina-analyysi</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">Seuraa asuntomarkkinoiden kehitystä ajantasaisen datan avulla.</p>
+                </div>
+                
+                <div class="bg-white p-6 rounded-xl shadow-lg" data-aos="zoom-in">
+                    <canvas id="marketChart" height="300"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Kohteet Section -->
+        <section id="kohteet" class="section bg-white">
+            <div class="container">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4">Myynnissä olevat kohteet</h2>
+                    <p class="text-lg text-gray-600 max-w-3xl mx-auto">Tutustu laadukkaisiin kohteisiimme ja löydä unelmiesi koti.</p>
+                </div>
+                
+                <div class="relative" data-aos="fade-up">
+                    <!-- Swiper container -->
+                    <div class="swiper property-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Property 1 -->
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image">
+                                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Luxury Villa" class="w-full h-full object-cover">
+                                        <div class="property-badge">Uusi kohde</div>
+                                    </div>
+                                    <div class="property-content">
+                                        <div class="property-price">395 000 €</div>
+                                        <h3 class="property-title">Moderni paritalohuoneisto</h3>
+                                        <div class="property-location">
+                                            <i class="fas fa-map-marker-alt mr-1"></i> Espoo, Leppävaara
+                                        </div>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed mr-1"></i> 4h</span>
+                                            <span><i class="fas fa-bath mr-1"></i> 2 kph</span>
+                                            <span><i class="fas fa-vector-square mr-1"></i> 120 m²</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Property 2 -->
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image">
+                                        <img src="https://images.unsplash.com/photo-1613545325278-f24b0cae1224?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Modern Apartment" class="w-full h-full object-cover">
+                                        <div class="property-badge">Suosittu</div>
+                                    </div>
+                                    <div class="property-content">
+                                        <div class="property-price">245 000 €</div>
+                                        <h3 class="property-title">Valoisa kerrostaloasunto</h3>
+                                        <div class="property-location">
+                                            <i class="fas fa-map-marker-alt mr-1"></i> Helsinki, Kallio
+                                        </div>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed mr-1"></i> 3h</span>
+                                            <span><i class="fas fa-bath mr-1"></i> 1 kph</span>
+                                            <span><i class="fas fa-vector-square mr-1"></i> 65 m²</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Property 3 -->
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image">
+                                        <img src="https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Countryside House" class="w-full h-full object-cover">
+                                        <div class="property-badge">Alennettu</div>
+                                    </div>
+                                    <div class="property-content">
+                                        <div class="property-price">495 000 €</div>
+                                        <h3 class="property-title">Tunnelmallinen omakotitalo</h3>
+                                        <div class="property-location">
+                                            <i class="fas fa-map-marker-alt mr-1"></i> Vantaa, Tikkurila
+                                        </div>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed mr-1"></i> 5h</span>
+                                            <span><i class="fas fa-bath mr-1"></i> 2 kph</span>
+                                            <span><i class="fas fa-vector-square mr-1"></i> 180 m²</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Property 4 -->
+                            <div class="swiper-slide">
+                                <div class="property-card">
+                                    <div class="property-image">
+                                        <img src="https://images.unsplash.com/photo-1574362848149-11496d93a7c7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Luxury Apartment" class="w-full h-full object-cover">
+                                        <div class="property-badge">Uusi kohde</div>
+                                    </div>
+                                    <div class="property-content">
+                                        <div class="property-price">198 000 €</div>
+                                        <h3 class="property-title">Kompakti kaksio</h3>
+                                        <div class="property-location">
+                                            <i class="fas fa-map-marker-alt mr-1"></i> Espoo, Matinkylä
+                                        </div>
+                                        <div class="property-features">
+                                            <span><i class="fas fa-bed mr-1"></i> 2h</span>
+                                            <span><i class="fas fa-bath mr-1"></i> 1 kph</span>
+                                            <span><i class="fas fa-vector-square mr-1"></i> 52 m²</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Swiper pagination -->
+                        <div class="swiper-pagination"></div>
+                        
+                        <!-- Swiper navigation buttons -->
+                        <div class="swiper-button-next text-primary"></div>
+                        <div class="swiper-button-prev text-primary"></div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-12">
+                    <a href="#ota-yhteytta" class="btn-primary">Kysy lisää kohteista</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="section bg-primary-dark text-white">
+            <div class="container">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 text-white">Asiakkaiden kokemuksia</h2>
+                    <p class="text-lg text-gray-300 max-w-3xl mx-auto">Lue mitä asiakkaamme sanovat palvelustamme.</p>
+                </div>
+                
+                <div class="max-w-4xl mx-auto" data-aos="fade-up">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <!-- Testimonial 1 -->
+                            <div class="swiper-slide">
+                                <div class="text-center p-8">
+                                    <div class="text-4xl text-secondary mb-6">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="text-xl mb-8">Merita hoiti asuntomme myynnin todella ammattimaisesti ja empaattisesti. Saimme asunnosta pyyntihintaa paremman hinnan ja myyntiaika oli huomattavasti odotettua lyhyempi.</p>
+                                    <div>
+                                        <p class="font-bold text-xl">Riitta Virtanen</p>
+                                        <p class="text-gray-300">Helsinki</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 2 -->
+                            <div class="swiper-slide">
+                                <div class="text-center p-8">
+                                    <div class="text-4xl text-secondary mb-6">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="text-xl mb-8">Merkittävin asia yhteistyössä Meritan kanssa oli luottamus. Tiesimme aina, missä mennään ja mitä tapahtuu seuraavaksi. Voin suositella lämpimästi!</p>
+                                    <div>
+                                        <p class="font-bold text-xl">Jaakko Korhonen</p>
+                                        <p class="text-gray-300">Espoo</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Testimonial 3 -->
+                            <div class="swiper-slide">
+                                <div class="text-center p-8">
+                                    <div class="text-4xl text-secondary mb-6">
+                                        <i class="fas fa-quote-left"></i>
+                                    </div>
+                                    <p class="text-xl mb-8">Ensimmäinen asuntokauppamme sujui Meritan kanssa täysin stressittömästi. Hän selitti kaikki vaiheet selkeästi ja oli aina tavoitettavissa, kun meillä oli kysyttävää.</p>
+                                    <div>
+                                        <p class="font-bold text-xl">Laura Nieminen</p>
+                                        <p class="text-gray-300">Vantaa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Testimonial pagination -->
+                        <div class="testimonial-pagination"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Yhteydenotto -->
+        <section id="ota-yhteytta" class="section bg-neutral">
+            <div class="container">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16">
+                    <div data-aos="fade-right">
+                        <h2 class="text-3xl md:text-4xl font-bold mb-6">Ota yhteyttä</h2>
+                        <p class="text-lg text-gray-600 mb-8">Kiinnostuitko kohteista tai haluatko myydä asuntosi? Ota yhteyttä niin keskustellaan lisää!</p>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-start">
+                                <div class="text-primary text-2xl mr-4">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-lg">Puhelin</h3>
+                                    <p class="text-gray-600">+358 45 606 6565</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="text-primary text-2xl mr-4">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-lg">Sähköposti</h3>
+                                    <p class="text-gray-600">merita.sipovaara@remax.fi</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="text-primary text-2xl mr-4">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-lg">Toimisto</h3>
+                                    <p class="text-gray-600">RE/MAX Casa Alto, Laivurinrinne 1, 00120 Helsinki</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="flex space-x-4">
+                            <a href="https://www.facebook.com/remaxmerita" target="_blank" class="text-primary hover:text-secondary text-2xl">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com/meritasi_?igsh=NDB2bzF3cHlhZWdx" target="_blank" class="text-primary hover:text-secondary text-2xl">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" target="_blank" class="text-primary hover:text-secondary text-2xl">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div data-aos="fade-left">
+                        <form class="bg-white p-8 rounded-xl shadow-lg">
+                            <div class="mb-6">
+                                <label for="name" class="block mb-2 font-semibold">Nimi</label>
+                                <input type="text" id="name" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="email" class="block mb-2 font-semibold">Sähköposti</label>
+                                <input type="email" id="email" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="phone" class="block mb-2 font-semibold">Puhelinnumero</label>
+                                <input type="tel" id="phone" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label for="message" class="block mb-2 font-semibold">Viesti</label>
+                                <textarea id="message" rows="5" class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary w-full">Lähetä viesti</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="bg-primary-dark text-white py-12">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Meritasi LKV Oy</h3>
+                    <p class="mb-4">Laadukasta ja asiantuntevaa kiinteistönvälitystä sydämellä.</p>
+                    <p>Y-tunnus: 3122828-6</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Yhteystiedot</h3>
+                    <p class="mb-2">Laivurinrinne 1</p>
+                    <p class="mb-2">00120 Helsinki</p>
+                    <p class="mb-2">+358 45 606 6565</p>
+                    <p>merita.sipovaara@remax.fi</p>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Pikavalikko</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#etusivu" class="hover:text-secondary transition-colors">Etusivu</a></li>
+                        <li><a href="#palvelut" class="hover:text-secondary transition-colors">Palvelut</a></li>
+                        <li><a href="#kohteet" class="hover:text-secondary transition-colors">Kohteet</a></li>
+                        <li><a href="#minusta" class="hover:text-secondary transition-colors">Minusta</a></li>
+                        <li><a href="#ota-yhteytta" class="hover:text-secondary transition-colors">Ota yhteyttä</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-white">Seuraa meitä</h3>
+                    <div class="flex space-x-4 mb-4">
+                        <a href="https://www.facebook.com/remaxmerita" target="_blank" class="text-white hover:text-secondary text-2xl">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" class="text-white hover:text-secondary text-2xl">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" target="_blank" class="text-white hover:text-secondary text-2xl">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <img src="https://www.remax.fi/images/global/R_Logo_RGB.svg" alt="RE/MAX logo" class="w-24">
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm">
+                <p>&copy; 2025 Meritasi LKV Oy. Kaikki oikeudet pidätetään.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
