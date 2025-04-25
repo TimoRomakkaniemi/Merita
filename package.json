@@ -1,24 +1,34 @@
 {
-  "name": "merita",
+  "name": "meritasi-lkv",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Modernin kiinteistönvälitysyrityksen Meritasi LKV Oy verkkosivusto",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TimoRomakkaniemi/Merita.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["kiinteistönvälitys", "LKV", "Merita Sipovaara"],
+  "author": "MeritaSi LKV Oy",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/TimoRomakkaniemi/Merita/issues"
   },
   "homepage": "https://github.com/TimoRomakkaniemi/Merita#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "aos": "^2.3.4",
+    "chart.js": "^4.4.1",
+    "gsap": "^3.12.4",
+    "swiper": "^11.0.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.10"
   }
 }

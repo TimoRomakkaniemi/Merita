@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-neutral-dark bg-neutral;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif text-primary-dark;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-block px-6 py-3 rounded-lg font-semibold transition-all duration-300;
+  }
+  
+  .btn-primary {
+    @apply btn bg-primary text-white hover:bg-primary-dark;
+  }
+  
+  .btn-secondary {
+    @apply btn bg-secondary text-primary-dark hover:bg-secondary-dark;
+  }
+  
+  .btn-outline {
+    @apply btn border-2 border-primary text-primary hover:bg-primary hover:text-white;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg overflow-hidden transition-transform duration-300 hover:scale-[1.02];
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+  
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .property-card {
+    @apply card flex flex-col h-full;
+  }
+  
+  .property-image {
+    @apply relative h-64 w-full overflow-hidden;
+  }
+  
+  .property-badge {
+    @apply absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded-full text-sm font-bold;
+  }
+  
+  .property-content {
+    @apply p-6 flex-grow;
+  }
+  
+  .property-price {
+    @apply text-2xl font-bold text-secondary-dark mb-2;
+  }
+  
+  .property-title {
+    @apply text-xl font-bold mb-2;
+  }
+  
+  .property-location {
+    @apply text-gray-500 mb-4 flex items-center gap-1;
+  }
+  
+  .property-features {
+    @apply flex justify-between text-sm text-gray-500 border-t pt-4 mt-4;
+  }
+} 
