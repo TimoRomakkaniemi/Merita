@@ -8,18 +8,18 @@ export default {
     extend: {
       colors: {
         primary: {
-          DEFAULT: '#1e3a8a', // tummansininen
-          light: '#3b82f6',   // vaaleansininen
-          dark: '#172554',    // hyvin tumma sininen
+          DEFAULT: '#a49178', // lämmin beige
+          light: '#cfc0ad',   // vaalea beige
+          dark: '#7d6c5a',    // tumma beige/ruskea
         },
         secondary: {
-          DEFAULT: '#d4a762', // kulta
-          light: '#e9d5aa',
-          dark: '#a67c39',
+          DEFAULT: '#644f3b', // tumma mokka
+          light: '#9c8167',   // keskitumma ruskea
+          dark: '#433427',    // hyvin tumma mokka
         },
         neutral: {
-          DEFAULT: '#f8fafc', // vaalea tausta
-          dark: '#0f172a',    // tumma teksti
+          DEFAULT: '#f9f5f0', // erittäin vaalea beige tausta
+          dark: '#35302a',    // tumma teksti
         }
       },
       fontFamily: {
